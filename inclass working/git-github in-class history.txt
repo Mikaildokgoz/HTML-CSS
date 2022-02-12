@@ -1,0 +1,311 @@
+    1  cd Desktop/
+    2  mkdir test
+    3  cd test/
+    4  git init 
+    5  git status 
+    6  touch merhaba
+    7  git status 
+    8  git add .
+    9  git status 
+   10  git commit 
+   11  explorer.exe .
+   12  git --version 
+   13  pwd
+   14  cd Desktop/
+   15  mkdir git_lesson
+   16  cd git_lesson/
+   17  explorer.exe .
+   18  git config --global user.name "martinfade"
+   19  git config --global user.email "martin_fade@clarusway.com"
+   20  git config --global core.editor "vim"
+   21  git config --list
+   22  cd ..
+   23  git init
+   24  cd git_lesson/
+   25  git in
+   26  git init
+   27  ls
+   28  ll
+   29  ls -al
+   30  cd ..
+   31  ls
+   32  ls -al
+   33  rm -rf .git/
+   34  cd git_lesson/
+   35  ls -al
+   36  git status
+   37  touch newfile.txt
+   38  git status 
+   39  ls -al
+   40  cd ..
+   41  git clone https://github.com/martinfade/itf10.git
+   42  git clone http://github.com/martinfade/itf10.git
+   43  git merge
+   44  git init
+   45  git merge -m "test2"
+   46  touch test
+   47  git add .
+   48  git commit -m "test"
+   49  echo "merhaba" >> test 
+   50  git status 
+   51  git commit -am "test"
+   52  echo "merhaba" >> test 
+   53  git commit -am "test"
+   54  echo "merhaba" >> test 
+   55  git commit -am "test"
+   56  echo "merhaba" >> test 
+   57  git commit -am "test"
+   58  git log
+   59  git checkout -b yenib
+   60  echo "merhaba" >> test 
+   61  git commit -am "test"
+   62  echo "merhaba" >> test 
+   63  git commit -am "test"
+   64  git log
+   65  git checkout main 
+   66  echo "merhaba" >> test 
+   67  git commit -am "test"
+   68  echo "merhaba" >> test 
+   69  git commit -am "test"
+   70  git merge yenib 
+   71  git log
+   72  echo test1 > test 
+   73  git commit -am "new"
+   74  git checkout -b yeni2
+   75  echo "bu yeni" > test 
+   76  echo "bu yeni" >> test 
+   77  echo "bu yeni" >> test 
+   78  git commit -am "yeni"
+   79  echo "bu yeni" >> test 
+   80  git commit -am "yeni"
+   81  echo "bu yeni" >> test 
+   82  git commit -am "yeni"
+   83  git checkout main
+   84  echo "bu da güzel" > test 
+   85  git commit -am "main den bu"
+   86  echo "bu da güzel" >> test 
+   87  git commit -am "main den bu"
+   88  echo "bu da güzel" >> test 
+   89  git commit -am "main den bu"
+   90  echo "bu da güzel" >> test 
+   91  git commit -am "main den bu"
+   92  cat test 
+   93  git merge yeni2
+   94  cat test 
+   95  git commit -am "merge conf"
+   96  cat test 
+   97  vim test 
+   98  git commit -am "merge conf"
+   99  ls
+  100  cd Desktop/
+  101  clear
+  102  pwd
+  103  mkdir git-lesson-2
+  104  cd git-lesson-2/
+  105  git config --list
+  106  git help
+  107  git init
+  108  ls -al
+  109  rm -rf .git/
+  110  git status
+  111  git init
+  112  touch newfile
+  113  git status
+  114  git add newfile
+  115  git status
+  116  git commit -m "yeni dosya oluşturuldu."
+  117  git log
+  118  echo merhaba > newfile 
+  119  git status 
+  120  git add .
+  121  git commit -m "newfile a merhaba yazıldı"
+  122  git log
+  123  ls
+  124  touch newfile2
+  125  git add .
+  126  git commit -m "newfile2 eklendi"
+  127  ls
+  128  touch newfile3 
+  129  git add .
+  130  git commit -m "newfile3 eklendi"
+  131  git log
+  132  ls
+  133  git checkout 5bce
+  134  ls
+  135  clear
+  136  git log
+  137  git checkout master
+  138  git checkout main
+  139  git log
+  140  cd ..
+  141  mkdir my-second-project
+  142  cd my-second-project/
+  143  git init
+  144  touch file1.txt
+  145  vim file1.txt 
+  146  git status
+  147  git add .
+  148  git commit -m "yeni dosya eklendi"
+  149  git log
+  150  clear
+  151  touch file2.txt
+  152  echo "merhaba dünya" > file2.txt 
+  153  git add .
+  154  git status 
+  155  rm file1.txt 
+  156  git status 
+  157  mv file2.txt file3.txt
+  158  git status 
+  159  git rm --cached file3.txt 
+  160  git add file3.txt 
+  161  git status 
+  162  git commit -m "işlemler yapıldı"
+  163  ls
+  164  git log
+  165  git checkout a05d4
+  166  ls
+  167  ls -al
+  168  git log 
+  169  git branch
+  170  git branch -r
+  171  git branch -a
+  172  git branch development
+  173  git branch 
+  174  git checkout development
+  175  git branch 
+  176  git log
+  177  git branch
+  178  git branch
+  179  git checkout main
+  180  ls
+  181  git checkout development
+  182  ls
+  183  code .
+  184  git status
+  185  cd ..
+  186  git init
+  187  git status
+  188  ls -al
+  189  cd ..
+  190  cd ..
+  191  cd Desktop/
+  192  ls -al
+  193  rm -rf .git
+  194  git status
+  195  cd Yeni\ klasör
+  196  git init
+  197  git status
+  198  git clone https://github.com/clarusway/clarusway-it-fundamentals-10-21.git
+  199  git clone http://github.com/clarusway/clarusway-it-fundamentals-10-21.git
+  200  git clone git@github.com:clarusway/clarusway-it-fundamentals-10-21.git
+  201  git clone https://martinfade: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@github.com/clarusway/clarusway-it-fundamentals-10-21.git
+  202  ssh-keygen -t rsa
+  203  cat /c/Users/devops/.ssh/id_rsa.pub
+  204  clear
+  205  git clone https://github.com/martinfade/my-working.git
+  206  git clone https://martinfade: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@github.com/martinfade/my-working.git
+  207  clear
+  208  explorer.exe .
+  209  cd Desktop/
+  210  cd my-working/
+  211  git status 
+  212  git add .
+  213  git status 
+  214  git commit -m "first commit"
+  215  git status
+  216  git push origin main
+  217  git push origin main
+  218  git branch -a
+  219  git pull
+  220  git add origin-new https://martinfade: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@github.com/clarusway/clarusway-it-fun
+  221  git add origin-new https://martinfade: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@github.com/clarusway/clarusway-it-fun.git
+  222  git clone https://martinfade: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@github.com/clarusway/clarusway-it-fundamentals-10-21.git
+  223  clear
+  224  git pull
+  225  cd clarusway-it-fundamentals-10-21/
+  226  git pull
+  227  git status
+  228  git pull
+  229  cd ..
+  230  cd my-working/
+  231  git status 
+  232  git add .
+  233  git commit -m "assignment-2 eklendi"
+  234  git push 
+  235  cd Desktop/my-
+  236  cd Desktop/my-working/
+  237  clear
+  238  git remote add upstream https://martinfade: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@github.com/clarusway/clarusway-it-fundamentals-10-21.git
+  239  clear
+  240  git pull upstream
+  241  git status 
+  242  git pull upstream 
+  243  ls git/class-notes/
+  244  git branch -a
+  245  git checkout remotes/upsteam/main
+  246  git checkout remotes/upstream/main
+  247  ls git/class-notes/
+  248  ls
+  249  git checkout main
+  250  ls
+  251  git status
+  252  git pull upstream main
+  253  git status
+  254  git remote -v
+  255  clear
+  256  git pull upstream 
+  257  git branch upstream/main 
+  258  ls
+  259  git status
+  260  git branch 
+  261  ls git/class-notes/
+  262  git checkout upstream/main 
+  263  cd git/
+  264  cd class-notes/
+  265  echo "bu metin dosyası terminal üzerinde oluşturuldu" > metin.txt
+  266  git status 
+  267  git add .
+  268  git commit -m "metin dosyası oluşturuldu"
+  269  git push origin main 
+  270  clear
+  271  zip HTML/
+  272  git status
+  273  git add .
+  274  git commit -m "ders3 notları"
+  275  git push origin main 
+  276  git clone https://github.com/martinfade/github-recap.git
+  277  cd github-recap/
+  278  touch hasan.txt
+  279  git status
+  280  git add .
+  281  git commit -m "hasan dosyası eklendi"
+  282  git config user.name "devhasan34"
+  283  git config user.email "devhasan34@yandex.com"
+  284  git log
+  285  echo "merhaba" > hasan.txt 
+  286  git commit -am "dosyaya satır eklendi"
+  287  git log
+  288  git branch dev-hasan
+  289  git checkout dev-hasan 
+  290  touch newfile3.txt
+  291  echo "bu metin dev-hasan branchinde yazıldı" > newfile3.txt 
+  292  git add .
+  293  git commit -m "dosya eklendi"
+  294  git push
+  295  git push -u origin dev-hasan 
+  296  clear
+  297  git checkout main
+  298  git branch -d dev-hasan 
+  299  git branch
+  300  git pull 
+  301  git branch 
+  302  git branch -d dev-martin
+  303  git checkout dev-martin
+  304  git checkout main
+  305  git branch -d dev-martin 
+  306  git branch -D dev-hasan
+  307  git checkout dev-hasan
+  308  git checkout main
+  309  git branch -D dev-hasan 
+  310  history
+  311  history > history.txt
