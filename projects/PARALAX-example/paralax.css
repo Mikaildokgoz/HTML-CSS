@@ -1,0 +1,95 @@
+body, html{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    height: 100%;   
+}
+.container1{
+    background-image: url(https://picsum.photos/id/137/200/300 );
+    min-height: 100%;
+}
+.container2{
+    background-image: url(https://picsum.photos/id/1039/200/300 );
+    min-height: 75%;
+}
+.container3{
+    background-image: url(https://picsum.photos/id/106/200/300);
+    min-height: 75%;
+}
+.container4{
+    background-image: url(https://picsum.photos/id/140/200/300 );
+    min-height: 75%;
+}
+.container5{
+    background-image: url(https://picsum.photos/id/1036/200/300);
+    min-height: 75%;
+}
+
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    background-attachment:fixed;
+}
+
+.mevsim{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: justify;
+    padding:40px 55px ;
+    border: 3px dotted green;
+}
+.mevsim h2{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.mevsim p{
+    margin-top: 10px;
+    text-indent: 20px;
+}
+.koyu-arkaplan{
+    background-color: gray;
+    color: white;
+}
+.açık-arkaplan{
+    background-color: white;
+    color: gray;
+}
+
+span{
+    text-transform: uppercase;
+    font-size: 35px;
+    color: rgb(15, 31, 170);
+    border: 2px solid purple;
+    padding: 25px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 30px;
+    outline: 15px inset purple;
+    outline-offset: 5px;
+    
+}
+
+@media(max-width:614px){
+    span{
+        text-transform: lowercase;
+        font-size: 17px;
+        color: rgb(15, 31, 170);
+        border: 1px solid blue;
+        padding: 12.5px;
+        border-top-left-radius: 7.5px;
+        border-bottom-right-radius: 15px;
+        outline: 7px outset blue;
+        outline-offset: 2.5px;
+        
+    }
+}
