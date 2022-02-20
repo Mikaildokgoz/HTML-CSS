@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    grid-template-columns: 100px 300px 200px;
+    grid-template-rows: 100px 400px 100px;
+    
+    /* column-gap: 20px;
+    row-gap: 10px; */
+    gap: 30px 10px;
+}
+
+
+.content{
+    background-color: cornflowerblue;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px gray;
+}
